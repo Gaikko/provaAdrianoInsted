@@ -1,0 +1,15 @@
+.footer {
+    background-color: #3f4655;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
