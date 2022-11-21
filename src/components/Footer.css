@@ -1,12 +1,14 @@
 .footer {
+    height: 10%;
     background-color: #3f4655;
     bottom: 0;
-    position: fixed;
+    position: inherit;
     width: 100%;
 }
 
 ul {
-    display: inline;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 li {

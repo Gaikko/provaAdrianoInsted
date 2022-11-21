@@ -42,8 +42,6 @@ const ApiWeather = ({ ph }) => {
         }
       })
     console.log(currentValue);
-    //alert(currentValue);
-
   }
   return (
     <div>

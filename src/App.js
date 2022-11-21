@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Index from './pages/Weather/Index';
 import Home from './pages/Home/Home';
 import NavBar from './components/NavBar';
@@ -15,8 +15,8 @@ function App() {
             <Route path='/' element={<Home btnIr = "Acessar!"/>}></Route>
             <Route path='/weather' element={<Index/>}></Route>
           </Routes>
-          
         </BrowserRouter>
+        <Footer/>
       </header>
     </div>
   );
