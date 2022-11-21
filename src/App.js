@@ -15,7 +15,7 @@ function App() {
             <Route path='/' element={<Home btnIr = "Acessar!"/>}></Route>
             <Route path='/weather' element={<Index/>}></Route>
           </Routes>
-          <Footer />
+          
         </BrowserRouter>
       </header>
     </div>

@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div>
         <h2>Api Weather - Temperatura</h2>
-        <ApiWeather></ApiWeather>
+        <ApiWeather ph = "Pesquise aqui a cidade..."></ApiWeather>
     </div>
   )
 }
