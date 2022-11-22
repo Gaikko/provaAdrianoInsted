@@ -1,17 +1,18 @@
 .footer {
-    height: 10%;
+    margin-top: 100vh;
     background-color: #3f4655;
+    width: 100%;
     bottom: 0;
     position: inherit;
-    width: 100%;
 }
 
-ul {
-    display: inline-flex;
+.ulft {
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-li {
+.lift {
     text-decoration: none;
     list-style: none;
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import ApiWeather from './components/ApiWeather'
-import './Index.css'
 
 const Index = () => {
   return (

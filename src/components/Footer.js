@@ -6,15 +6,15 @@ const Footer = () => {
     let facul = "INSTED";
     return (
         <footer className="footer">
-            <ul>
-                <li>
-                    <h6>Dev: {dev}</h6>
+            <ul className='ulft'>
+                <li className='lift'>
+                    <p>Dev: {dev}</p>
                 </li>
-                <li>
-                    <h6>Instituição: {facul}</h6>
+                <li className='lift'>
+                    <p>Instituição: {facul}</p>
                 </li>
-                <li>
-                    <h6>Gaikko&copy;</h6>
+                <li className='lift'>
+                    <p>Gaikko&copy;</p>
                 </li>
             </ul>
         </footer>

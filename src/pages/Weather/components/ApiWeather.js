@@ -13,26 +13,20 @@ const ApiWeather = ({ ph }) => {
       .then(res => res.json())
       .then(data => {
         const { name, main, sys, weather } = data;
-        console.log({data});
+        console.log({ data });
         if (sys !== undefined) {
           if (weather !== undefined) {
             const icon = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${weather[0]["icon"]}.svg`;
             setCidade(
-              `<div>
-              <div>
+              `<div class='conteudo'>
               <p>Temperatura: ${main.temp} ºC</p>
               <h9 class='sens'>Sensação Térmica: ${main.feels_like} ºC</h9>
               <h9 class='min'>Mínima: ${main.temp_min} ºC</h9>
               <h9 class='max'>Máxima: ${main.temp_max} ºC</h9>
-              </div>
-            <p>País: ${sys.country}</p>
-            <p>Cidade: ${name}</p>
-            <div>
-            <h8>Tempo: ${weather[0]['main']}</h8><br/>
-            <div class='descricao'>
-            <h9>Descrição: ${weather[0]['description']}</h9><img class='iconetemp' src="${icon}"/>
-            </div>
-            </div>
+              <p>País: ${sys.country}</p>
+              <p>Cidade: ${name}</p>
+              <h8 class='descricao'>Tempo: ${weather[0]['main']}</h8>
+              <h9 class='descricao'>Descrição: ${weather[0]['description']}<img class='iconetemp' src="${icon}"/></h9>
             </div>`
             );
           }
