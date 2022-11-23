@@ -38,8 +38,8 @@ const ApiWeather = ({ ph }) => {
     <div>
       <hr></hr>
       <form onSubmit={(e) => SerachInput(e)}>
-        <input name='serachInput' type="text" onClick={SerachInput} placeholder={ph}></input>
-        <input type="submit" value="Pesquisar..."></input>
+        <input name='serachInput' type="text" placeholder={ph}></input>
+        <input type="submit" value="Pesquisar..." onClick={SerachInput}></input>
       </form>
       <hr></hr>
       <div>
