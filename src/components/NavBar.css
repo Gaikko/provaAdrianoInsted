@@ -1,9 +1,10 @@
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .brand {

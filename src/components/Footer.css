@@ -1,18 +1,18 @@
 .footer {
-    margin-top: 100vh;
-    background-color: #3f4655;
-    width: 100%;
-    bottom: 0;
-    position: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #3f4655;
+  width: 100%;
+  bottom: 0;
+  position: inherit;
 }
 
 .ulft {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  padding: 1vh;
 }
 
 .lift {
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none;
+  list-style: none;
 }
